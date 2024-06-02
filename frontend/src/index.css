@@ -1,0 +1,342 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+th {
+  color: black;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: wheat;
+}
+
+.p1{
+  color: red;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-shadow: red;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;
+}
+
+.p2 {
+  color: orange;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;
+}
+
+.p3{
+  color: orange;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;
+}
+.p4{
+  color: orange;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;
+}
+
+td {
+  color: white;
+  font-size: 20px;
+  background-color: rgba(80, 70, 70, 0.66);
+  align-items: center;
+  height: 180px;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  padding: 2px;
+  color: white;
+}
+.bgilogo{
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+ background-color: rgba(0, 0, 0, 0.8);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/008/996/180/original/ans-logo-ans-letter-ans-letter-logo-design-initials-ans-logo-linked-with-circle-and-uppercase-monogram-logo-ans-typography-for-technology-business-and-real-estate-brand-vector.jpg");
+}
+.bgivehicle{
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+ background-color: rgba(0, 0, 0, 0.8);
+  background-image: url("https://images.unsplash.com/photo-1485291571150-772bcfc10da5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmxhY2slMjBjYXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+}
+.bgi-right {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/008/996/180/original/ans-logo-ans-letter-ans-letter-logo-design-initials-ans-logo-linked-with-circle-and-uppercase-monogram-logo-ans-typography-for-technology-business-and-real-estate-brand-vector.jpg");
+}
+.bgi-left {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/008/996/180/original/ans-logo-ans-letter-ans-letter-logo-design-initials-ans-logo-linked-with-circle-and-uppercase-monogram-logo-ans-typography-for-technology-business-and-real-estate-brand-vector.jpg");
+}
+.bs1 {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: darkred;
+  text-shadow:
+  -1px -1px 0 black,
+   1px -1px 0 black,
+  -1px 1px 0 black,
+   1px 1px 0 black;
+}
+
+h2 {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgba(128, 128, 128, 0.44);
+}
+
+.header {
+  padding: 10px;
+  background-color: rgb(44, 42, 42);
+  max-height: 10vh;
+}
+.header .ant-btn {
+  background-color: rgb(73, 73, 243);
+  color: black;
+  border: 2px solid black;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  width: 120px;
+  align-items: center;
+  position: center;
+}
+
+.content {
+  min-height: 80vh;
+}
+
+.footer {
+  padding: 10px;
+  background-color: black;
+  max-height: 10vh;
+}
+.h1footer {
+  color: white;
+}
+
+.btn1 {
+  background-color: gray;
+  color: black;
+  border: 2px solid gray;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  width: 200px;
+  align-items: center;
+  position: center;
+}
+.btn2 {
+  background-color: gray;
+  color: black;
+  border: 2px solid black;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  width: 200px;
+  align-items: center;
+  position: center;
+}
+
+.btn1:hover {
+  background-color: red;
+  color: white;
+}
+
+.order {
+  background-color: black;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.login-form label {
+  color: white !important;
+  opacity: 0.8;
+}
+.order-form label {
+  color: black !important;
+}
+.login-form h2 {
+  color: white;
+  opacity: 1;
+  text-align: center;
+  background-color: #413d3d;
+}
+.order-form h2 {
+  color: white;
+
+  text-align: center;
+}
+
+.login-form {
+  background-color: #413d3d;
+  color: white;
+  opacity: 0.6;
+}
+.order-form {
+  background-color: gray;
+  color: white;
+}
+
+.login-form input {
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+.order-form input {
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+.login-form input:hover {
+  background-color: white;
+}
+
+.order-form input:hover {
+  background-color: white;
+}
+
+.login-logo {
+  position: absolute;
+  left: 40%;
+  right: 60%;
+  top: 65%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  opacity: 0.5;
+}
+.order-logo {
+  position: absolute;
+  left: 40%;
+  right: 60%;
+  top: 65%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  opacity: 0.5;
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-button {
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+
+.custom-button:hover {
+  background-color: darkgray;
+}
+
+.bgc {
+  background-color: black;
+}
+
+.detailsh2 {
+  background-color: "rgba(173, 216, 230, 0.8)";
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+.edith2 {
+  background-color: "rgba(173, 216, 230, 0.8)";
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.boldtext {
+  font-weight: bold;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  height: 60px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: center; 
+  height: 100vh; 
+}
+
